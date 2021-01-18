@@ -10,7 +10,7 @@ const appReducer = combineReducers({
   alert,
 });
 const rootReducer = (state, action) => {
-  if (action.type === "SET_LOGOUT") {
+  if (action.type == "SET_LOGOUT") {
     state = {
       validateLogin: false,
       users: null,

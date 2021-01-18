@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Row, Col } from "react-bootstrap";
-import ShopComponent from "../Components/Shops/ShopComponent";
-import BreadcrumbsComponent from "../Components/General/BreadcrumbsComponent";
-import DescriptionComponent from "../Components/General/DescriptionComponent";
-import InputComponent from "../Components/General/InputComponent";
-import ic_search from "../images/ic_search.png";
-import { getListShops } from "../store/actions/shops";
-import FooterComponent from "../Components/General/FooterComponent";
-import LogoutComponent from "Components/General/LogoutComponent";
+import ShopComponent from "../Shops/ShopComponent";
+import BreadcrumbsComponent from "../General/BreadcrumbsComponent";
+import DescriptionComponent from "../General/DescriptionComponent";
+import InputComponent from "../General/InputComponent";
+import ic_search from "../../images/ic_search.png";
+import { getListShops } from "../../store/actions/shops";
+import FooterComponent from "../General/FooterComponent";
+import LogoutComponent from "../General/LogoutComponent";
 import "./style.css";
 
 const ShopsComponent = () => {

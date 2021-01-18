@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import PrivateRoute from "./Components/PrivateRoute";
-import LoginComponent from "./Pages/LoginComponent";
-import ShopsComponent from "./Pages/ShopsComponent";
+import LoginComponent from "./Components/Pages/LoginComponent";
+import ShopsComponent from "./Components/Pages/ShopsComponent";
 import LeftComponent from "./Components/Left/LeftComponent";
-import ProductsComponent from "./Pages/ProductsComponent";
+import ProductsComponent from "./Components/Pages/ProductsComponent";
 import AlertComponent from "./Components/General/AlertComponent";
 import "./styles/App.css";
 function App() {

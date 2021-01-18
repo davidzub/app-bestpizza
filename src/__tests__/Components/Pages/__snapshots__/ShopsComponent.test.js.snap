@@ -91,6 +91,7 @@ Array [
     >
       <a
         href="https://www.facebook.com/"
+        rel="noreferrer"
         target="_Blank"
       >
         <svg
@@ -114,6 +115,7 @@ Array [
       </a>
       <a
         href="https://www.instagram.com/"
+        rel="noreferrer"
         target="_Blank"
       >
         <svg

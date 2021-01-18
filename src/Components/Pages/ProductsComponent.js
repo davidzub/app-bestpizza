@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useParams, useHistory } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
-import ProductComponent from "../Components/Products/ProductComponent";
-import BreadcrumbsComponent from "../Components/General/BreadcrumbsComponent";
-import DescriptionComponent from "../Components/General/DescriptionComponent";
-import FooterComponent from "../Components/General/FooterComponent";
-import LogoutComponent from "../Components/General/LogoutComponent";
+import ProductComponent from "../Products/ProductComponent";
+import BreadcrumbsComponent from "../General/BreadcrumbsComponent";
+import DescriptionComponent from "../General/DescriptionComponent";
+import FooterComponent from "../General/FooterComponent";
+import LogoutComponent from "../General/LogoutComponent";
 import "./style.css";
 
 const ProductsComponent = () => {
@@ -15,7 +15,7 @@ const ProductsComponent = () => {
   const listShops = useSelector((state) => state.listShops);
   let shop = null;
   if (listShops) {
-    shop = listShops.find((shop) => shop.id === id);
+    shop = listShops.find((shop) => shop.id == id);
   }
   const breadcrumb = [
     { text: "Pizzerías", url: "/shops" },
