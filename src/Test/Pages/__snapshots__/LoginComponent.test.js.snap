@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginComponent /> render 1`] = `
+<div
+  id="loginForm"
+>
+  <div
+    className="info"
+  >
+    <img
+      alt=""
+      className="logo"
+      src="Login-Best-Pizza.png"
+    />
+    <h3>
+      Bienvenido
+    </h3>
+    <h4>
+      A las mejores pizzas del país
+    </h4>
+  </div>
+  <form
+    autoComplete="off"
+    noValidate={true}
+  >
+    <div
+      className="field"
+    >
+      <input
+        className="inputLogin"
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Usuario"
+        style={
+          Object {
+            "backgroundImage": "url(ic_usuario.png)",
+          }
+        }
+        type="email"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <input
+        className="inputLogin"
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Contraseña"
+        style={
+          Object {
+            "backgroundImage": "url(ic_contrasena.png)",
+          }
+        }
+        type="password"
+      />
+    </div>
+    <p>
+      ¿Olvidaste tu contraseña?
+    </p>
+    <div>
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Iniciar sesión
+      </button>
+    </div>
+  </form>
+</div>
+`;

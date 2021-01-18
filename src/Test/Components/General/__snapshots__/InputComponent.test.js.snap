@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputComponent /> render 1`] = `
+<input
+  className="inputLogin"
+  disabled={false}
+  onChange={[Function]}
+  placeholder=""
+  style={
+    Object {
+      "backgroundImage": "url()",
+    }
+  }
+  type=""
+/>
+`;
