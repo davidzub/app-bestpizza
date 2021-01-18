@@ -25,6 +25,15 @@ Crea la aplicación para producción en la carpeta `build`.\
 
 Inicia la ejecución de pruebas realizadas en el proyecto.
 
+### Pre-requisitos 📋
+
+Se debe crear una variable de entorno con la API a consumir
+
+```
+REACT_APP_URL_API=https:// www . ejemplo . com
+```
+
+
 ## Construido con 🛠️
 
 
