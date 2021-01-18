@@ -30,14 +30,14 @@ Inicia la ejecución de pruebas realizadas en el proyecto.
 Se debe crear una variable de entorno con la API a consumir
 
 ```
-REACT_APP_URL_API=https:// www . ejemplo . com
+REACT_APP_URL_API=https://www.ejemplo.com
 ```
 
 
 ## Construido con 🛠️
 
 
-- [ReactJS](http://www.dropwizard.io/1.0.2/docs/) - Libreria usado
+- [ReactJS](https://es.reactjs.org/) - Libreria usado
 - [Yarn](https://github.com/axios/axios) - Manejador de dependencias
 - [Redux](https://es.redux.js.org/) - Manejador de estado de la aplicación
 - [Axios](https://github.com/axios/axios) - Cliente HTTP para JavaScript
