@@ -2,9 +2,9 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import CardComponent from "../General/CardComponent";
 import { withRouter } from "react-router-dom";
-import Panos_pizza from "../../images/shops/Panos_pizza.png";
+import Panos_pizza from "../../images/shops/panos_pizza.png";
 import pizzeria_camion from "../../images/shops/pizzeria_camion.png";
-import Sbarro from "../../images/shops/Sbarro.png";
+import Sbarro from "../../images/shops/sbarro.png";
 import trulli from "../../images/shops/trulli.png";
 import voglia_di_pizza from "../../images/shops/voglia_di_pizza.png";
 

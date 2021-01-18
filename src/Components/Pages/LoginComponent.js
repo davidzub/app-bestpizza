@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import InputComponent from "../General/InputComponent";
 import Button from "react-bootstrap/Button";
 import { runLogin } from "../../store/actions/login";
-import logo from "../../images/Login-Best-Pizza.png";
+import logo from "../../images/login-best-pizza.png";
 import ic_constrasena from "../../images/ic_contrasena.png";
 import ic_usuario from "../../images/ic_usuario.png";
 import "./style.css";
