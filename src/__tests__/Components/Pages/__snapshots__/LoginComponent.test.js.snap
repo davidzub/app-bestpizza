@@ -10,7 +10,7 @@ exports[`<LoginComponent /> render 1`] = `
     <img
       alt=""
       className="logo"
-      src="Login-Best-Pizza.png"
+      src="login-Best-Pizza.png"
     />
     <h3>
       Bienvenido
